@@ -1,0 +1,24 @@
+.cartOverview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #292524;
+  padding: 10px;
+}
+
+.cartOverview * {
+  text-transform: uppercase;
+}
+
+.cartOverview a,
+.cartOverview p {
+  margin: 10px 20px;
+  color: #ffff;
+}
+
+.cartOverview a {
+  text-decoration: none;
+}

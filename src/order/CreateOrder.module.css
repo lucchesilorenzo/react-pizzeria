@@ -1,0 +1,63 @@
+.createOrder {
+  width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.createOrder h2 {
+  margin-bottom: 40px;
+}
+
+.createOrder form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.createOrder div > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.createOrder div > div p {
+  margin: 6px 0 0 0;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #fbe2e2;
+  color: #b91c1c;
+  padding: 5px;
+}
+
+.createOrder form div:nth-child(-n + 3) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.createOrder form input[type="text"],
+input[type="tel"] {
+  padding: 15px;
+  border: 1px #ddd9d9 solid;
+  border-radius: 30px;
+  letter-spacing: 1.5px;
+  width: 400px;
+  transition: 300ms ease-in-out;
+}
+
+.createOrder input:focus {
+  outline: 4px solid #e7be1c;
+}
+
+.createOrder form div:nth-child(4) {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.createOrder form input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  border: 2px solid #555;
+}

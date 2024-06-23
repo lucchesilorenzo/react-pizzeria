@@ -1,0 +1,38 @@
+.menuItem {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  border-bottom: 1px solid #e8e4e4;
+  padding: 10px;
+}
+
+.menuItem img {
+  width: 100px;
+  object-fit: contain;
+}
+
+.soldOut {
+  filter: grayscale(100%);
+}
+
+.menuItem p {
+  margin: 0;
+}
+
+.menuItem p:nth-child(2) {
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-style: italic;
+  color: #78716c;
+}
+
+.menuItem div > div > p {
+  text-transform: uppercase;
+}
+
+.menuItem div > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

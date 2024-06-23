@@ -1,0 +1,13 @@
+.cartItem {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e8e4e4;
+  padding: 10px;
+}
+
+.cartItem div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

@@ -1,0 +1,20 @@
+.orderItem * {
+  margin: 0;
+}
+
+.orderItem {
+  border-bottom: 1px solid #e8e4e4;
+  padding: 10px;
+}
+
+.orderItem div span {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.orderItem > p {
+  font-size: 14px;
+  text-transform: capitalize;
+  font-style: italic;
+  color: #78716c;
+}

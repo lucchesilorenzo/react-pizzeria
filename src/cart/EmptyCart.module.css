@@ -1,0 +1,9 @@
+.emptyCart {
+  width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.emptyCart p {
+  font-weight: 500;
+}

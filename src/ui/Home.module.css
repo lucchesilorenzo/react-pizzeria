@@ -1,0 +1,18 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 5px;
+}
+
+.home h1 {
+  text-align: center;
+  color: #44403c;
+}
+
+.home span {
+  color: #eab30a;
+  font-weight: 500;
+}

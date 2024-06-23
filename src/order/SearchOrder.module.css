@@ -1,0 +1,18 @@
+.searchOrder input {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  letter-spacing: 1.5px;
+  background-color: #fef9c3;
+  width: 250px;
+  transition: 300ms ease-in-out;
+}
+
+.searchOrder input:focus {
+  width: 300px;
+  outline: 4px solid #e7be1c;
+}
+
+.searchOrder input::placeholder {
+  color: #757873;
+}

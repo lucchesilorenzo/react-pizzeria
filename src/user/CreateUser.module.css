@@ -1,0 +1,23 @@
+.createUser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.createUser input[type="text"] {
+  padding: 20px;
+  border: 1px #efefef solid;
+  border-radius: 30px;
+  letter-spacing: 1.5px;
+  width: 250px;
+  transition: 300ms ease-in-out;
+}
+
+.createUser input:focus {
+  outline: 4px solid #e7be1c;
+}
+
+.createUser input::placeholder {
+  color: #757873;
+}

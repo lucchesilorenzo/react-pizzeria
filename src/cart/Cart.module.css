@@ -1,0 +1,16 @@
+.cart {
+  width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.cart ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cart div {
+  display: flex;
+  gap: 10px;
+}
